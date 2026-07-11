@@ -1,20 +1,20 @@
 {
-  "version": "1.7.2-beta.20260707013134",
+  "version": "1.7.2",
   "description": "A Windows context menu management tool.",
   "homepage": "https://github.com/PLFJY/ContextMenuMgr",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2-Beta+0d7412c/ContextMenuMgrPlus-1.7.2-Beta+0d7412c-x64-self-contained-portable.zip",
-      "hash": "c39f854fdd59b148e2b43955e331fa090d6d68ec4234c060303f81591736d842"
+      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-x64-self-contained-portable.zip",
+      "hash": "847991a6ff5fc9ffd6c4493c44d696db55ca507b7b956633a55a64e524869242"
     },
     "32bit": {
-      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2-Beta+0d7412c/ContextMenuMgrPlus-1.7.2-Beta+0d7412c-x86-self-contained-portable.zip",
-      "hash": "04cd2dbbd56816a1cb8f7fe23a959e962d81df2f39bc51d92250172b7122c5b3"
+      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-x86-self-contained-portable.zip",
+      "hash": "360e27da74361a10ff38dffe3260a0951b567a3de0fd7a231a563de50e4ad096"
     },
     "arm64": {
-      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2-Beta+0d7412c/ContextMenuMgrPlus-1.7.2-Beta+0d7412c-arm64-self-contained-portable.zip",
-      "hash": "6ed1de65384866356a152b91ff8ab09fc8982e9b039346e2ff1ee1e42cccd9e5"
+      "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-arm64-self-contained-portable.zip",
+      "hash": "a998cb4a76ddd6a759e3e07665d727df1afb7c905aeb4a7fd0437001fd994e63"
     }
   },
   "shortcuts": [
@@ -26,7 +26,7 @@
   "persist": "Data",
   "notes": [
     "Context Menu Manager Plus may ask to install or repair its Windows service for elevated menu operations.",
-    "Beta builds may contain regressions; use them only when you want to validate prerelease changes."
+    "This Beta channel package currently tracks the latest stable release."
   ],
   "pre_install": [
     "if (Test-Path \"$scoopdir\\apps\\contextmenumgrplus\\current\") {",
